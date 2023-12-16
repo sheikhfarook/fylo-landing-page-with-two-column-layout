@@ -3,3 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-image: url(../src/assets/images/bg-curve-desktop.svg);
+  background-position: center 70rem;
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+}
