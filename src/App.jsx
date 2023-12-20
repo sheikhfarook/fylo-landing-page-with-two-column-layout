@@ -4,6 +4,7 @@ import Access from "./components/footer/access";
 import FyloBar from "./components/header/fylobar";
 import FilesSecure from "./components/main/files-secure";
 import Productive from "./components/main/productive";
+import { TailwindIndicator } from "./components/tailwind/indicator";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Productive />
       <Access />
       <FyloContect />
+      <TailwindIndicator />
     </div>
   );
 }

@@ -4,9 +4,30 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   background-image: url(../src/assets/images/bg-curve-desktop.svg);
   background-position: center 70rem;
   background-repeat: no-repeat;
   background-size: 100% 50%;
+} */
+
+@media (min-width: 375px) and (max-width: 425px) {
+  .bgimg {
+    background-image: url(../src/assets/images/background.svg);
+    background-repeat: no-repeat;
+    height: 60rem;
+    background-size: 100% 60rem;
+  }
 }
+
+@media (min-width: 425px) {
+  .bgimg {
+    background-image: url(../src//assets/images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+
+/* body {
+  background-color: black;
+} */
